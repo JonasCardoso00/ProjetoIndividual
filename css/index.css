@@ -17,11 +17,16 @@ body{
     justify-content: center;
     
 }
+
 .slideshow-container{
     display: flex;
     justify-content: center;
+    margin-top: 50%;
 }
-
+.estilizarCarrosel1{
+    display: flex;
+    justify-content: center;
+}
 
 .cabecalho{
     display: flex;
@@ -48,17 +53,61 @@ body{
 .cabecalho-menu a{
     color: white;
 }
+.card1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
 
+.card1 p{
+    width: 80%;
+}
+.card1 h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+}
+.card2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+.card2 p{
+    width: 80%;
+}
+.card2 h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}
+.card3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+.card3 p{
+    width: 80%;
+}
+.card3 h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card3 img{
+    margin-left: 125px;
+}
 .conteudo{
     display: flexbox;
     margin-top: 10%;
     align-items: center;
 }
-.primeiroConteudo{
-    display: flex;
-    justify-content: center;
-    margin-top: 20%;
-}
+
 .segundoConteudo{
     display: flex;
     margin-top: 10%;
@@ -67,15 +116,35 @@ body{
     height: 40%;
     width: 50%;
     border-radius: 25px;
-    flex-wrap: wrap-reverse;
+    
 }
 
 .conteudoPrincipal-Texto{
     font-size: small;
     flex-wrap: wrap;
 }
-
-
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: black;
+}
+.footerGit{
+    display: flex;
+    justify-content: flex-end;
+    width: 5%;
+}
+.footerGit a{
+    display: inline-block;
+}
+.logoBranca{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+}
 
 
 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="imgLogo" src="imagens/logof1Branca.png" alt="">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-home" href="telaInicial.html">Home</a>
+            <a class="cabecalho-menu-login" href="">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="caixa">
+            <div class="cadastro">
+                <h3>
+                    Digite nome <input type="text" id="inputNome">
+                </h3>
+
+                <h3>
+                    Digite o sobrenome <input type="text" id="inputSobreNome">
+                </h3>
+                <h3>Digite o seu email <input type="email" id="inputEmail"></h3>
+                <h3>Digite a sua senha <input type="password" id="inputSenha"></h3>
+                <h3>Digite novamente sua senha <input type="password" id="inputSenhaNovamente"></h3>
+
+                <button onclick="cadastrar()">
+                    Cadastrar
+                </button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
+<script>
+    function cadastrar() {
+        var nome = inputNome.value;
+        var email = inputEmail.value;
+        var senha = inputSenha.value;
+        var senhaNovamente = inputSenhaNovamente;
+        if (nome == " " || email == " " || senha == " ") {
+            alert("Preencha todos os campos")
+        }
+        if (senha != senhaNovamente) {
+            alert("As senhas são diferentes")
+        }
+    }
+
+
+</script>

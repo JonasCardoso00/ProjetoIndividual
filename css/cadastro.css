@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courier New', Courier;
+}
+body{
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.caixa{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+    border: 3%;
+}
+
+.cadastro input{
+    display: flex; 
+    margin-top: 10px;
+}
