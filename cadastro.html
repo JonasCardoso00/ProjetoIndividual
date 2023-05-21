@@ -16,25 +16,19 @@
             <a class="cabecalho-menu-login" href="">Login</a>
         </nav>
     </header>
-    <div class="container">
-        <section class="caixa">
-            <div class="cadastro">
-                <h3>
-                    Digite nome <input type="text" id="inputNome">
-                </h3>
-
-                <h3>
-                    Digite o sobrenome <input type="text" id="inputSobreNome">
-                </h3>
-                <h3>Digite o seu email <input type="email" id="inputEmail"></h3>
-                <h3>Digite a sua senha <input type="password" id="inputSenha"></h3>
-                <h3>Digite novamente sua senha <input type="password" id="inputSenhaNovamente"></h3>
-
-                <button onclick="cadastrar()">
-                    Cadastrar
-                </button>
-            </div>
-        </section>
+    <div class="page">
+        <form class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">Nome</label>
+            <input type="nome" placeholder="Digite seu Nome" autofocus="true"/>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha"/>
+            <button type="submit" value="Acessar" class="btn">Logar</button>
+            <button type="submit" value="Cadastrar" class="btn" onclick="cadastro()">Cadastrar</button>
+         </form>
     </div>
 </body>
 </html>

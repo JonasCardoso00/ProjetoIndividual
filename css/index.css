@@ -23,10 +23,10 @@ body{
     justify-content: center;
     margin-top: 50%;
 }
-.estilizarCarrosel1{
+/* .estilizarCarrosel1{
     display: flex;
     justify-content: center;
-}
+} */
 
 .cabecalho{
     display: flex;
@@ -54,16 +54,18 @@ body{
     color: white;
 }
 .card1{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
-    
+}.card1 img{
+    display: flex;
+    width: 100vh;
 }
-
 .card1 p{
-    width: 80%;
+    width: 95%;
+    font-size: larger;
 }
 .card1 h2{
     text-align: center;
@@ -71,14 +73,19 @@ body{
     color: red;
 }
 .card2{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
 }
 .card2 p{
-    width: 80%;
+    width: 95%;
+    font-size: larger;
+}
+.brasil {
+    margin-left: 10%;
+    
 }
 .card2 h2{
     text-align: center;
@@ -86,18 +93,19 @@ body{
     color: yellowgreen;
 }
 .card3{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
 }
 .card3 p{
-    width: 80%;
+    width: 95%;
 }
 .card3 h2{
     text-align: center;
     margin-bottom: 10px;
+    color: darkred;
 }
 .card3 img{
     margin-left: 125px;
@@ -107,22 +115,20 @@ body{
     margin-top: 10%;
     align-items: center;
 }
-
-.segundoConteudo{
+.card4{
+    width: 85%;
+    margin: 0 auto;
     display: flex;
-    margin-top: 10%;
-    position: absolute;
-    background-color: rgb(73, 43, 43);
-    height: 40%;
-    width: 50%;
-    border-radius: 25px;
-    
+    justify-content: space-around;
+    margin-top: 15%;
+
+}
+.card4 h2{
+    color: blue;
+    display: flex;
+    text-align: center;
 }
 
-.conteudoPrincipal-Texto{
-    font-size: small;
-    flex-wrap: wrap;
-}
 .footer{
     display: flex;
     justify-content: space-between;

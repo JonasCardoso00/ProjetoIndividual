@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="imgLogo" src="imagens/logof1Branca.png" alt="">
+        <nav class="cabecalho-menu">
+            <a href="senna.html" class="Senna" style="background-color: green; color: yellow;"> Senna</a>
+            <a class="cabecalho-menu-home" href="telaInicial.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="page">
+        <form class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite seu e-mail" />
+            <button type="submit" value="Acessar" class="btn">Logar</button>
+            <button type="submit" value="Cadastrar" class="btn" onclick="cadastro()">Cadastrar</button>
+         </form>
+    </div>
+
+</body>
+</html>
+
+<script>
+    function cadastro() {
+        location.replace("https://inteligenciafinanceira.com.br/wp-content/uploads/2023/02/homer-simpson-1-264a0.jpeg")
+    }
+</script>
