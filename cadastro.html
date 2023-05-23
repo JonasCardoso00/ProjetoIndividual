@@ -13,39 +13,36 @@
         <img class="imgLogo" src="imagens/logof1Branca.png" alt="">
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-home" href="telaInicial.html">Home</a>
-            <a class="cabecalho-menu-login" href="">Login</a>
+            <a class="cabecalho-menu-login" href="login.html">Login</a>
         </nav>
     </header>
-    <div class="page">
-        <form class="formLogin">
-            <h1>Login</h1>
-            <p>Digite os seus dados de acesso no campo abaixo.</p>
-            <label for="email">Nome</label>
-            <input type="nome" placeholder="Digite seu Nome" autofocus="true"/>
-            <label for="email">Email</label>
-            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-            <label for="password">Senha</label>
-            <input type="password" placeholder="Digite sua senha"/>
-            <button type="submit" value="Acessar" class="btn">Logar</button>
-            <button type="submit" value="Cadastrar" class="btn" onclick="cadastro()">Cadastrar</button>
-         </form>
+    <div class="form_container" id="cadastroUSUARIO">
+        <form action="" class="form">
+            <h1 class="form_titulo">Cadastro</h1>
+            <div class="form_div">
+                <input type="text" class="form_input" placeholder="" required>
+                <label for="" class="form_label">Nome</label>
+            </div>
+            <div class="form_div">
+                <input type="text" class="form_input" placeholder="" required>
+                <label for="" class="form_label">Telefone</label>
+            </div>
+            <div class="form_div">
+                <input type="text" class="form_input" placeholder="" required>
+                <label for="" class="form_label">email</label>
+            </div>
+
+            <div class="form_div">
+                <input type="password" class="form_input" placeholder="" required>
+                <label for="" class="form_label">Senha</label>
+            </div>
+            <div class="form_div">
+                <input type="password" class="form_input" placeholder="" required>
+                <label for="" class="form_label">Digite a senha novamente</label>
+            </div>
+            <input type="submit" value="Cadastrar">
+            
+        </form>
     </div>
 </body>
 </html>
-
-<script>
-    function cadastrar() {
-        var nome = inputNome.value;
-        var email = inputEmail.value;
-        var senha = inputSenha.value;
-        var senhaNovamente = inputSenhaNovamente;
-        if (nome == " " || email == " " || senha == " ") {
-            alert("Preencha todos os campos")
-        }
-        if (senha != senhaNovamente) {
-            alert("As senhas são diferentes")
-        }
-    }
-
-
-</script>

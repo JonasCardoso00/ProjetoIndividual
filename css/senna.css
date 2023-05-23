@@ -38,3 +38,58 @@ body{
 .cabecalho-menu a{
     color: white;
 }
+.sessao1{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.sessao1 p{
+    width: 95%;
+    font-size: larger;
+    margin-left: 5%;
+}
+.sessao1 h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}
+
+.sessao2{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25%;
+}
+.sessao2 p{
+    width: 95%;
+    font-size: larger;
+    margin-left: 7%;
+
+}
+.sessao2 h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}
+
+.sessao3{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25%;
+}
+.sessao3 p{
+    width: 95%;
+    font-size: larger;
+    margin-left: 7%;
+
+}
+.sessao3 h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}

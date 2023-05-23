@@ -18,11 +18,6 @@ body{
     
 }
 
-.slideshow-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 50%;
-}
 /* .estilizarCarrosel1{
     display: flex;
     justify-content: center;
@@ -82,11 +77,9 @@ body{
 .card2 p{
     width: 95%;
     font-size: larger;
+    margin-left: 5%;
 }
-.brasil {
-    margin-left: 10%;
-    
-}
+
 .card2 h2{
     text-align: center;
     margin-bottom: 10px;
@@ -111,7 +104,7 @@ body{
     margin-left: 125px;
 }
 .conteudo{
-    display: flexbox;
+    /* display: flexbox; */
     margin-top: 10%;
     align-items: center;
 }
@@ -121,14 +114,20 @@ body{
     display: flex;
     justify-content: space-around;
     margin-top: 15%;
-
 }
 .card4 h2{
     color: blue;
-    display: flex;
-    text-align: center;
+    text-align: center;   
 }
-
+.card4 p{
+    width: 95%;
+    margin-left: 5%;
+}
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50%; */
+}
 .footer{
     display: flex;
     justify-content: space-between;
@@ -137,6 +136,7 @@ body{
     height: 100px;
     margin-top: 10%;
     background-color: black;
+    
 }
 .footerGit{
     display: flex;
